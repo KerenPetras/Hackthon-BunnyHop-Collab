@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+
+body {
+    background-image: url(/images/bg.png);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    overflow: hidden;
+    position: relative;
+}
+
+.score {
+    position: absolute;
+    font-size: 4vmin;
+    top: 1vmin;
+    right: 1vmin;
+}
+
+.start {
+    position: absolute;
+    font-size: 4vmin;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.ground {
+    --left: 0;
+    position: absolute;
+    width: 300%;
+    bottom: 0;
+    left: calc(var(--left) * 1%);
+}
+
+.rabbit {
+    --bottom: 22;
+    position: absolute;
+    left: 1%;
+    height: 25%;
+    top: 30;
+    bottom: calc(var(--bottom) * 1%);
+}
+
+.easter-egg {
+    position: absolute;
+    left: calc(var(--left) * 1%);
+    bottom: 20%;
+    height: 16%;
+}
+
+
+.hide {
+    display: none;
+}
