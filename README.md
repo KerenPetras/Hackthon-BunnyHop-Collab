@@ -1,5 +1,5 @@
-# Bunny Hop // DinoChrome Insparation
-
+# Bunny Hop // DinoChrome Insparation with
+Hackthon Collab With  _**[@AmySkaletzky](https://github.com/amyskaletzky/Rabbit-Hop/tree/easterEggs)**_
 
 ## Description
 
