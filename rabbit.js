@@ -61,10 +61,10 @@ function handleHop(diff) {
     yVelocity -= GRAVITY * diff
 }
 
-const hopSound = new Audio("/bunny-hop-sounds/Jump-sound.mp3") //hop sounds
+const hopSound = new Audio()
 function onHop(evt) {
     if (evt.code !== 'Space' || isHopping) return
-
+hopSound.src = "bunny-hop-sounds/Jump-sound.mp3";
     yVelocity = HOP_SPEED
     isHopping = true
     hopSound.currentTime = 0;
