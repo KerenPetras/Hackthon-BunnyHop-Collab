@@ -8,7 +8,7 @@
 
 
 body {
-    background-image: url ("https://github.com/KerenPetras/Hackthon-BunnyHop-Collab/blob/main/images/bg.png?raw=true");
+    background-image: url ("https://raw.githubusercontent.com/KerenPetras/Hackthon-BunnyHop-Collab/main/images/bg.png");
     background-size: cover;
     min-height: 100vh;
     display: flex;
