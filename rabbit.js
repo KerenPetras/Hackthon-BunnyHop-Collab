@@ -62,9 +62,9 @@ function handleHop(diff) {
 }
 
 const hopSound = new Audio()
+hopSound.src = "bunny-hop-sounds/Jump-sound.mp3";
 function onHop(evt) {
     if (evt.code !== 'Space' || isHopping) return
-hopSound.src = "bunny-hop-sounds/Jump-sound.mp3";
     yVelocity = HOP_SPEED
     isHopping = true
     hopSound.currentTime = 0;
