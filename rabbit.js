@@ -63,7 +63,7 @@ function handleHop(diff) {
 
 const hopSound = new Audio()
 hopSound.src = "bunny-hop-sounds/Jump-sound.mp3";
-audioStart.volume = 0.5
+hopSound.volume = 0.5
 function onHop(evt) {
     if (evt.code !== 'Space' || isHopping) return
     yVelocity = HOP_SPEED
