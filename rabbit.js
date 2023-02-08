@@ -67,6 +67,7 @@ function onHop(evt) {
     if (evt.code !== 'Space' || isHopping) return
     yVelocity = HOP_SPEED
     isHopping = true
+    audioStart.volume = 0.5
     hopSound.currentTime = 0;
     hopSound.play();
 }
