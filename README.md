@@ -9,6 +9,9 @@ The code sets up the game screen, keeps track of your score, and starts the game
 As you play, the code continually updates the game to show the movement of the ground, rabbit, and eggs.
 The code also checks if you hit an egg and if so, the rabbit loses and the game starts over, and the code also makes the game look good on different screen sizes.
 
+Try to beat our highest score! *828*
+[Click Here](https://kerenpetras.github.io/Hackthon-BunnyHop-Collab/)
+
 ![](https://i.ibb.co/0mgxXrQ/Start-Game-bunny.png)
 
 [Video Explanation Link](https://www.kapwing.com/videos/63e20799c2627900180cee14)
